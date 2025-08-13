@@ -1,4 +1,4 @@
-# NovaTech
+# Introduction
 This repository provides comprehensive engineering documentation and design specifications for an autonomous vehicle prototype, developed for the 2025 WRO Open Championship Asia &amp; Pacific – Philippines, under the Future Engineers Challenge category.
 
 ## Content
@@ -9,7 +9,7 @@ This repository provides comprehensive engineering documentation and design spec
 * `models` folder contains the 3D design of the vehicle in .lxf and the rendered model of the vehicle.
 * `others` folder contains additional files that can be utilized to learn how to understand the car set up for the competition.
 
-## NovaTech Team, Malaysia
+# NovaTech Team, Malaysia
 We are Team NovaTech from Malaysia, proudly representing our country in the Future Engineers category of the World Robot Olympiad (WRO) Open Championship (Asia & Pacific) 2025. Our team consists of three passionate and dedicated members:
 * Lai Chaun Choy
 * Adam Syahmi Bin Mohd Syahrizal
@@ -57,6 +57,10 @@ The Pixy2 is mounted at the top of the chassis with a clear line of vision towar
 This simple yet effective use of the Pixy2 enhances the robot's ability to navigate autonomously in dynamic settings, particularly during tasks that involve object avoidance and parking. It ensures that the car can respond accurately to visual input with minimal latency, which is essential for maintaining performance during the competition.
 
 **(ii) Color Sensor**
+TCS3472 RGB Color Sensor
+
+Our self-driving car integrates the TCS3472 RGB Color Sensor to enhance its ability to detect and respond to specific colors in the competition environment. The TCS3472 is an advanced color recognition module that combines a red, green, and blue (RGB) sensing element with a clear photodiode, along with an IR blocking filter to improve color accuracy under different lighting conditions. It also features an integrated ADC (Analog-to-Digital Converter) that outputs digital values for each color channel, 
+
 **(iii) Orientaion and Motion Sensing**
 **(iv) Laser Sensor**
 ## 2.3 Build of Materials
